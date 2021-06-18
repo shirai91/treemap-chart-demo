@@ -1,0 +1,14 @@
+#chartjs-tooltip::before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #283648;
+  left: -10px;
+
+  top: 20px;
+}
